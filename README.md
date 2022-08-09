@@ -15,12 +15,12 @@ npm install --save excellentcatui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'excellentcatui'
-import 'excellentcatui/dist/index.css'
+import { Button } from 'excellentcatui';
+import styles from "../node_modules/excellentcatui/dist/index.css"
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button />
   }
 }
 ```
